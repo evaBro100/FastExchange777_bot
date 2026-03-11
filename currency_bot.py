@@ -6,7 +6,7 @@ import requests
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8693832078:AAF4yo-bl9GubeR4ydiSIi1Y8C3HcRbQFPU"
+# TOKEN = "8693832078:AAF4yo-bl9GubeR4ydiSIi1Y8C3HcRbQFPU"
 BASE_CURRENCY = "RUB"
 API_URL = "http://data.fixer.io/api/latest?access_key=6a3736274566c974989f265506934baa"
 CURRENCIES = ["USD", "EUR"]
