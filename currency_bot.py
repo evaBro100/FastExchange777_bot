@@ -2,18 +2,16 @@ import asyncio
 import json
 import logging
 from datetime import datetime
-import requests
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-# TOKEN = "8693832078:AAF4yo-bl9GubeR4ydiSIi1Y8C3HcRbQFPU"
-BASE_CURRENCY = "RUB"
-API_URL = "http://data.fixer.io/api/latest?access_key=6a3736274566c974989f265506934baa"
-CURRENCIES = ["USD", "EUR"]
-reply_keyboard = [[curr] for curr in CURRENCIES]
-markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True, resize_keyboard=True)
+TOKEN = "8693832078:AAF4yo-bl9GubeR4ydiSIi1Y8C3HcRbQFPU"
 
-# --- Загрузка курсов из crypto_rates.json (обновлённая структура) ---
+# --- Клавиатура с одной кнопкой ---
+reply_keyboard = [["Курсы обмена"]]
+markup = ReplyKeyboardMarkup(reply_keyboard, resize_keyboard=True)
+
+# --- Загрузка курсов из crypto_rates.json (обновляется скриптом с Rapira) ---
 def load_crypto_rates():
     try:
         with open('crypto_rates.json', 'r', encoding='utf-8') as f:
@@ -23,7 +21,7 @@ def load_crypto_rates():
     except json.JSONDecodeError:
         return {"last_update": "ошибка чтения файла", "rates": {}}
 
-# --- Функция для команды /exchange (новый формат) ---
+# --- Формирование сообщения с курсами из Rapira ---
 def get_exchange_message():
     data = load_crypto_rates()
     last_update = data['last_update']
@@ -32,7 +30,6 @@ def get_exchange_message():
     usd = rates.get('USD', {})
     usdt = rates.get('USDT', {})
 
-    # Извлекаем значения, если их нет — ставим заглушку
     usd_buy = usd.get('buy', 'N/A')
     usd_sell = usd.get('sell', 'N/A')
     usdt_buy_usd = usdt.get('buy_usd', 'N/A')
@@ -46,7 +43,8 @@ def get_exchange_message():
         return f"{val:.2f}"
 
     message = (
-        f"📊 **Курсы покупки/продажи** (обновлено: {last_update})\n\n"
+        f"📊 **Курсы покупки/продажи** (обновлено: {last_update})\n"
+        f"🌐 Сеть: TRC20\n\n"
         "**Вы хотите купить:**\n"
         f"USD = {fmt(usd_buy)} руб.\n"
         f"USDT = {fmt(usdt_buy_usd)} USD\n"
@@ -58,75 +56,38 @@ def get_exchange_message():
     )
     return message
 
-# --- Остальные функции (get_exchange_rate, load_crypto_rates для /crypto и т.д.) ---
-def get_exchange_rate(currency: str) -> str:
-    try:
-        response = requests.get(API_URL, timeout=10)
-        data = response.json()
-        if not data.get("success"):
-            return "Не удалось получить данные. Попробуйте позже."
-        rates = data["rates"]
-        if currency not in rates or BASE_CURRENCY not in rates:
-            return f"Курс для {currency} или {BASE_CURRENCY} не найден."
-        rate_to_rub = rates[BASE_CURRENCY] / rates[currency]
-        date = data["date"]
-        current_time = datetime.now().strftime("%H:%M:%S")
-        return (f"Курс {currency} к {BASE_CURRENCY}:\n"
-                f"1 {currency} = {rate_to_rub:.2f} {BASE_CURRENCY}\n"
-                f"Дата: {date}\n"
-                f"Время запроса: {current_time}")
-    except Exception as e:
-        logging.error(f"Ошибка при запросе курса: {e}")
-        return "Произошла ошибка при получении данных."
-
-def get_crypto_message():
-    data = load_crypto_rates()
-    last_update = data['last_update']
-    rates = data.get('rates', {})
-    # Для /crypto оставляем старую структуру? Но в новом JSON нет отдельных полей BTC, ETH.
-    # Поэтому либо оставляем как есть, либо меняем. Для простоты пока оставим старый формат,
-    # но чтобы он работал, нужно, чтобы в JSON были и средние курсы. Можно добавить их в update_crypto.py.
-    # Для экономии времени предлагаю временно отключить /crypto или переделать его позже.
-    # Пока вернём заглушку.
-    return "Команда /crypto временно недоступна. Используйте /exchange."
-
-# --- Обработчики ---
+# --- Обработчики команд и сообщений ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Привет! Я бот курсов валют.\n"
-        "• Выберите валюту на клавиатуре для курса к рублю (Fixer.io).\n"
-        "• /exchange — курсы покупки/продажи USD и USDT.",
+        "Привет! Я бот курсов обменника.\n"
+        "Нажмите кнопку ниже, чтобы получить актуальные курсы.",
         reply_markup=markup
     )
-
-async def handle_currency(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    currency = update.message.text.upper()
-    if currency not in CURRENCIES:
-        await update.message.reply_text("Пожалуйста, выберите валюту из предложенных.")
-        return
-    await update.message.reply_text(f"Запрашиваю курс {currency}...")
-    result = get_exchange_rate(currency)
-    await update.message.reply_text(result, reply_markup=markup)
 
 async def exchange(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Загружаю курсы...")
     msg = get_exchange_message()
-    await update.message.reply_text(msg, parse_mode='Markdown')
+    await update.message.reply_text(msg, parse_mode='Markdown', reply_markup=markup)
 
-# async def crypto(update: Update, context: ContextTypes.DEFAULT_TYPE):  # временно отключено
-#     ...
+async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    text = update.message.text
+    if text == "Курсы обмена":
+        await exchange(update, context)
+    else:
+        # Если пользователь отправил что-то другое – игнорируем или отвечаем вежливо
+        await update.message.reply_text("Пожалуйста, используйте кнопку «Курсы обмена».", reply_markup=markup)
 
+# --- Главная функция ---
 async def main():
     application = Application.builder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start))
-    application.add_handler(CommandHandler("exchange", exchange))
-    # application.add_handler(CommandHandler("crypto", crypto))  # закомментировано
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_currency))
+    application.add_handler(CommandHandler("exchange", exchange))  # оставим для совместимости
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_buttons))
 
     await application.initialize()
     await application.start()
     await application.updater.start_polling()
-    print("✅ Бот запущен. Команды: /start, /exchange")
+    print("✅ Бот запущен. Нажмите кнопку 'Курсы обмена' в Telegram.")
     try:
         while True:
             await asyncio.sleep(3600)

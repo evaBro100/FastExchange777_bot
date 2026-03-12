@@ -1,15 +1,15 @@
-  {
-  "last_update": "2026-03-02 20:49:01",
+{
+  "last_update": "2026-03-12 23:01:02",
   "rates": {
     "USD": {
-      "buy": 78.05,
-      "sell": 76.5
+      "buy": 82.18,
+      "sell": 78.18
     },
     "USDT": {
-      "buy_usd": 1.01,
-      "sell_usd": 0.99,
-      "buy_rub": 77.85,
-      "sell_rub": 76.69
+      "buy_usd": 1.0,
+      "sell_usd": 1.0,
+      "buy_rub": 82.18,
+      "sell_rub": 78.18
     }
   }
 }
