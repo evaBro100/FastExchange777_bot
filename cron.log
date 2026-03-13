@@ -4656,3 +4656,1544 @@ SyntaxError: invalid syntax
    USD: buy = 82.18 ₽, sell = 78.18 ₽
    USDT: buy_usd = 1.0, sell_usd = 1.0
    USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:02:00.803860
+✅ Данные успешно обновлены: 2026-03-12 23:02:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:03:00.944904
+✅ Данные успешно обновлены: 2026-03-12 23:03:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:04:01.024378
+✅ Данные успешно обновлены: 2026-03-12 23:04:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:05:01.213316
+✅ Данные успешно обновлены: 2026-03-12 23:05:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:06:01.283027
+✅ Данные успешно обновлены: 2026-03-12 23:06:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:07:01.341994
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:08:01.438352
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:09:01.567683
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:10:01.606713
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:11:01.702874
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:12:00.886936
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:13:00.989347
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:14:01.054264
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:15:01.356469
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:16:01.334713
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:17:01.251253
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:18:01.307565
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:19:01.503264
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:20:01.689640
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:21:00.802607
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:22:00.885459
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:23:00.950288
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:24:00.887863
+Traceback (most recent call last):
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 93, in <module>
+    fetch_and_save_rates()
+  File "/Users/evakharchenko/exchange_bot/update_crypto.py", line 87, in fetch_and_save_rates
+    print(f"✅ Данные успешно обновлены: {output['last_update']}")
+KeyError: 'last_update'
+🔄 Запрос к Rapira: 2026-03-12 23:25:00.984199
+✅ Данные успешно обновлены: 2026-03-12 23:25:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:26:01.048245
+✅ Данные успешно обновлены: 2026-03-12 23:26:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:27:01.132805
+✅ Данные успешно обновлены: 2026-03-12 23:27:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:28:01.008840
+✅ Данные успешно обновлены: 2026-03-12 23:28:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:29:01.340505
+✅ Данные успешно обновлены: 2026-03-12 23:29:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:30:01.455167
+✅ Данные успешно обновлены: 2026-03-12 23:30:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:31:01.610362
+✅ Данные успешно обновлены: 2026-03-12 23:31:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:32:01.658325
+✅ Данные успешно обновлены: 2026-03-12 23:32:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:33:01.507445
+✅ Данные успешно обновлены: 2026-03-12 23:33:01
+   USD: buy = 82.15 ₽, sell = 78.15 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.15 ₽, sell_rub = 78.15 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:34:01.592228
+✅ Данные успешно обновлены: 2026-03-12 23:34:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:35:01.718851
+✅ Данные успешно обновлены: 2026-03-12 23:35:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:36:00.724636
+✅ Данные успешно обновлены: 2026-03-12 23:36:00
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:37:00.797924
+✅ Данные успешно обновлены: 2026-03-12 23:37:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:38:00.737652
+✅ Данные успешно обновлены: 2026-03-12 23:38:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:39:00.961066
+✅ Данные успешно обновлены: 2026-03-12 23:39:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:40:01.044928
+✅ Данные успешно обновлены: 2026-03-12 23:40:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:41:01.124743
+✅ Данные успешно обновлены: 2026-03-12 23:41:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:42:01.337482
+✅ Данные успешно обновлены: 2026-03-12 23:42:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:43:01.405876
+✅ Данные успешно обновлены: 2026-03-12 23:43:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:44:01.569251
+✅ Данные успешно обновлены: 2026-03-12 23:44:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:45:01.777424
+✅ Данные успешно обновлены: 2026-03-12 23:45:02
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:46:00.717668
+✅ Данные успешно обновлены: 2026-03-12 23:46:00
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:47:00.804079
+✅ Данные успешно обновлены: 2026-03-12 23:47:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:48:00.949933
+✅ Данные успешно обновлены: 2026-03-12 23:48:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:49:01.030802
+✅ Данные успешно обновлены: 2026-03-12 23:49:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:50:01.110709
+✅ Данные успешно обновлены: 2026-03-12 23:50:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:51:01.208921
+✅ Данные успешно обновлены: 2026-03-12 23:51:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:52:01.260375
+✅ Данные успешно обновлены: 2026-03-12 23:52:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:53:01.323662
+✅ Данные успешно обновлены: 2026-03-12 23:53:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:54:01.388095
+✅ Данные успешно обновлены: 2026-03-12 23:54:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:55:01.443244
+✅ Данные успешно обновлены: 2026-03-12 23:55:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:56:01.590282
+✅ Данные успешно обновлены: 2026-03-12 23:56:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:57:01.639858
+✅ Данные успешно обновлены: 2026-03-12 23:57:01
+   USD: buy = 82.17 ₽, sell = 78.17 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.17 ₽, sell_rub = 78.17 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:58:00.761422
+✅ Данные успешно обновлены: 2026-03-12 23:58:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-12 23:59:00.921764
+✅ Данные успешно обновлены: 2026-03-12 23:59:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:00:00.997097
+✅ Данные успешно обновлены: 2026-03-13 00:00:01
+   USD: buy = 82.21 ₽, sell = 78.21 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.21 ₽, sell_rub = 78.21 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:01:01.213831
+✅ Данные успешно обновлены: 2026-03-13 00:01:01
+   USD: buy = 82.22 ₽, sell = 78.22 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.22 ₽, sell_rub = 78.22 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:02:01.173660
+✅ Данные успешно обновлены: 2026-03-13 00:02:01
+   USD: buy = 82.22 ₽, sell = 78.22 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.22 ₽, sell_rub = 78.22 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:03:01.212712
+✅ Данные успешно обновлены: 2026-03-13 00:03:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:04:01.113879
+✅ Данные успешно обновлены: 2026-03-13 00:04:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:05:01.207858
+✅ Данные успешно обновлены: 2026-03-13 00:05:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:06:01.098387
+✅ Данные успешно обновлены: 2026-03-13 00:06:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:07:01.090118
+✅ Данные успешно обновлены: 2026-03-13 00:07:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:08:01.167678
+✅ Данные успешно обновлены: 2026-03-13 00:08:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:09:01.277405
+✅ Данные успешно обновлены: 2026-03-13 00:09:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:10:01.254896
+✅ Данные успешно обновлены: 2026-03-13 00:10:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:11:01.281386
+✅ Данные успешно обновлены: 2026-03-13 00:11:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:12:01.288255
+✅ Данные успешно обновлены: 2026-03-13 00:12:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:13:01.477580
+✅ Данные успешно обновлены: 2026-03-13 00:13:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 00:30:01.426274
+✅ Данные успешно обновлены: 2026-03-13 00:30:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 01:39:00.868931
+✅ Данные успешно обновлены: 2026-03-13 01:39:01
+   USD: buy = 82.16 ₽, sell = 78.16 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.16 ₽, sell_rub = 78.16 ₽
+🔄 Запрос к Rapira: 2026-03-13 01:56:01.406483
+✅ Данные успешно обновлены: 2026-03-13 01:56:01
+   USD: buy = 82.18 ₽, sell = 78.18 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.18 ₽, sell_rub = 78.18 ₽
+🔄 Запрос к Rapira: 2026-03-13 02:15:01.343219
+✅ Данные успешно обновлены: 2026-03-13 02:15:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 03:04:01.016475
+✅ Данные успешно обновлены: 2026-03-13 03:04:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 03:37:01.056932
+✅ Данные успешно обновлены: 2026-03-13 03:37:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 04:28:01.336404
+✅ Данные успешно обновлены: 2026-03-13 04:28:02
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 05:19:01.613809
+✅ Данные успешно обновлены: 2026-03-13 05:19:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 06:12:07.468783
+✅ Данные успешно обновлены: 2026-03-13 06:12:07
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 06:29:01.062414
+✅ Данные успешно обновлены: 2026-03-13 06:29:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:18:01.566117
+✅ Данные успешно обновлены: 2026-03-13 07:18:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:35:01.185285
+✅ Данные успешно обновлены: 2026-03-13 07:35:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:36:01.319423
+✅ Данные успешно обновлены: 2026-03-13 07:36:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:37:01.454911
+✅ Данные успешно обновлены: 2026-03-13 07:37:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:38:01.578468
+✅ Данные успешно обновлены: 2026-03-13 07:38:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:39:01.765912
+✅ Данные успешно обновлены: 2026-03-13 07:39:02
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:40:00.817788
+✅ Данные успешно обновлены: 2026-03-13 07:40:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:41:00.866875
+✅ Данные успешно обновлены: 2026-03-13 07:41:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:42:00.887958
+✅ Данные успешно обновлены: 2026-03-13 07:42:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:43:00.775133
+✅ Данные успешно обновлены: 2026-03-13 07:43:00
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:50:58.195999
+✅ Данные успешно обновлены: 2026-03-13 07:50:58
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:51:01.213443
+✅ Данные успешно обновлены: 2026-03-13 07:51:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:52:01.517383
+✅ Данные успешно обновлены: 2026-03-13 07:52:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:53:01.365609
+✅ Данные успешно обновлены: 2026-03-13 07:53:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:54:01.170776
+✅ Данные успешно обновлены: 2026-03-13 07:54:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:55:01.124528
+✅ Данные успешно обновлены: 2026-03-13 07:55:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:56:01.042430
+✅ Данные успешно обновлены: 2026-03-13 07:56:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:57:01.100063
+✅ Данные успешно обновлены: 2026-03-13 07:57:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:58:01.039051
+✅ Данные успешно обновлены: 2026-03-13 07:58:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 07:59:01.142305
+✅ Данные успешно обновлены: 2026-03-13 07:59:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 08:00:01.227631
+✅ Данные успешно обновлены: 2026-03-13 08:00:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 08:01:01.206155
+✅ Данные успешно обновлены: 2026-03-13 08:01:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 09:21:01.656363
+✅ Данные успешно обновлены: 2026-03-13 09:21:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 09:54:01.595518
+✅ Данные успешно обновлены: 2026-03-13 09:54:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 10:02:56.195528
+✅ Данные успешно обновлены: 2026-03-13 10:02:56
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 10:03:01.059439
+✅ Данные успешно обновлены: 2026-03-13 10:18:44
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 10:19:01.407700
+✅ Данные успешно обновлены: 2026-03-13 10:19:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 10:36:01.038506
+✅ Данные успешно обновлены: 2026-03-13 10:36:01
+   USD: buy = 82.2 ₽, sell = 78.2 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.2 ₽, sell_rub = 78.2 ₽
+🔄 Запрос к Rapira: 2026-03-13 11:04:01.601944
+✅ Данные успешно обновлены: 2026-03-13 11:04:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 11:37:01.494640
+✅ Данные успешно обновлены: 2026-03-13 11:37:01
+   USD: buy = 82.19 ₽, sell = 78.19 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.19 ₽, sell_rub = 78.19 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:11:01.378975
+✅ Данные успешно обновлены: 2026-03-13 12:11:01
+   USD: buy = 82.34 ₽, sell = 78.34 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.34 ₽, sell_rub = 78.34 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:12:01.456561
+✅ Данные успешно обновлены: 2026-03-13 12:12:01
+   USD: buy = 82.39 ₽, sell = 78.39 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.39 ₽, sell_rub = 78.39 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:13:01.438174
+✅ Данные успешно обновлены: 2026-03-13 12:13:01
+   USD: buy = 82.4 ₽, sell = 78.4 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.4 ₽, sell_rub = 78.4 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:14:01.484046
+✅ Данные успешно обновлены: 2026-03-13 12:14:01
+   USD: buy = 82.4 ₽, sell = 78.4 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.4 ₽, sell_rub = 78.4 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:15:01.516620
+✅ Данные успешно обновлены: 2026-03-13 12:15:01
+   USD: buy = 82.4 ₽, sell = 78.4 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.4 ₽, sell_rub = 78.4 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:16:01.564886
+✅ Данные успешно обновлены: 2026-03-13 12:16:01
+   USD: buy = 82.39 ₽, sell = 78.39 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.39 ₽, sell_rub = 78.39 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:17:01.570115
+✅ Данные успешно обновлены: 2026-03-13 12:17:01
+   USD: buy = 82.39 ₽, sell = 78.39 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.39 ₽, sell_rub = 78.39 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:35:00.970030
+✅ Данные успешно обновлены: 2026-03-13 12:35:01
+   USD: buy = 82.39 ₽, sell = 78.39 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.39 ₽, sell_rub = 78.39 ₽
+🔄 Запрос к Rapira: 2026-03-13 12:53:01.553730
+✅ Данные успешно обновлены: 2026-03-13 12:53:01
+   USD: buy = 82.39 ₽, sell = 78.39 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.39 ₽, sell_rub = 78.39 ₽
+🔄 Запрос к Rapira: 2026-03-13 13:43:01.423875
+✅ Данные успешно обновлены: 2026-03-13 13:43:01
+   USD: buy = 82.7 ₽, sell = 78.7 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.7 ₽, sell_rub = 78.7 ₽
+🔄 Запрос к Rapira: 2026-03-13 14:15:01.064759
+✅ Данные успешно обновлены: 2026-03-13 14:15:01
+   USD: buy = 82.65 ₽, sell = 78.65 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.65 ₽, sell_rub = 78.65 ₽
+🔄 Запрос к Rapira: 2026-03-13 14:32:01.360604
+✅ Данные успешно обновлены: 2026-03-13 14:32:01
+   USD: buy = 82.65 ₽, sell = 78.65 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.65 ₽, sell_rub = 78.65 ₽
+🔄 Запрос к Rapira: 2026-03-13 14:49:01.679369
+✅ Данные успешно обновлены: 2026-03-13 14:49:01
+   USD: buy = 82.65 ₽, sell = 78.65 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.65 ₽, sell_rub = 78.65 ₽
+🔄 Запрос к Rapira: 2026-03-13 15:22:00.870805
+✅ Данные успешно обновлены: 2026-03-13 15:22:01
+   USD: buy = 82.59 ₽, sell = 78.59 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.59 ₽, sell_rub = 78.59 ₽
+🔄 Запрос к Rapira: 2026-03-13 16:43:01.619092
+✅ Данные успешно обновлены: 2026-03-13 16:43:01
+   USD: buy = 83.01 ₽, sell = 79.01 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 83.01 ₽, sell_rub = 79.01 ₽
+🔄 Запрос к Rapira: 2026-03-13 17:16:01.125993
+✅ Данные успешно обновлены: 2026-03-13 17:16:01
+   USD: buy = 82.92 ₽, sell = 78.92 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.92 ₽, sell_rub = 78.92 ₽
+🔄 Запрос к Rapira: 2026-03-13 17:41:38.538040
+✅ Данные успешно обновлены: 2026-03-13 17:41:38
+   USD: buy = 82.93 ₽, sell = 78.93 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.93 ₽, sell_rub = 78.93 ₽
+🔄 Запрос к Rapira: 2026-03-13 17:42:01.465008
+✅ Данные успешно обновлены: 2026-03-13 17:42:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:27:01.270078
+✅ Данные успешно обновлены: 2026-03-13 18:27:01
+   USD: buy = 82.91 ₽, sell = 78.91 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.91 ₽, sell_rub = 78.91 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:28:01.422931
+✅ Данные успешно обновлены: 2026-03-13 18:28:01
+   USD: buy = 82.9 ₽, sell = 78.9 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.9 ₽, sell_rub = 78.9 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:29:01.392109
+✅ Данные успешно обновлены: 2026-03-13 18:29:01
+   USD: buy = 82.9 ₽, sell = 78.9 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.9 ₽, sell_rub = 78.9 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:30:01.361465
+✅ Данные успешно обновлены: 2026-03-13 18:30:01
+   USD: buy = 82.9 ₽, sell = 78.9 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.9 ₽, sell_rub = 78.9 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:31:01.575903
+✅ Данные успешно обновлены: 2026-03-13 18:31:01
+   USD: buy = 82.91 ₽, sell = 78.91 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.91 ₽, sell_rub = 78.91 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:32:01.618361
+✅ Данные успешно обновлены: 2026-03-13 18:32:01
+   USD: buy = 82.91 ₽, sell = 78.91 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.91 ₽, sell_rub = 78.91 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:33:01.621621
+✅ Данные успешно обновлены: 2026-03-13 18:33:01
+   USD: buy = 82.84 ₽, sell = 78.84 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.84 ₽, sell_rub = 78.84 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:34:01.661761
+✅ Данные успешно обновлены: 2026-03-13 18:34:02
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:35:00.766508
+✅ Данные успешно обновлены: 2026-03-13 18:35:01
+   USD: buy = 82.77 ₽, sell = 78.77 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.77 ₽, sell_rub = 78.77 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:36:00.808385
+✅ Данные успешно обновлены: 2026-03-13 18:36:01
+   USD: buy = 82.78 ₽, sell = 78.78 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.78 ₽, sell_rub = 78.78 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:37:00.784996
+✅ Данные успешно обновлены: 2026-03-13 18:37:01
+   USD: buy = 82.77 ₽, sell = 78.77 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.77 ₽, sell_rub = 78.77 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:38:00.896506
+✅ Данные успешно обновлены: 2026-03-13 18:38:01
+   USD: buy = 82.76 ₽, sell = 78.76 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.76 ₽, sell_rub = 78.76 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:39:00.861709
+✅ Данные успешно обновлены: 2026-03-13 18:39:01
+   USD: buy = 82.89 ₽, sell = 78.89 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.89 ₽, sell_rub = 78.89 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:40:00.807185
+✅ Данные успешно обновлены: 2026-03-13 18:40:01
+   USD: buy = 82.82 ₽, sell = 78.82 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.82 ₽, sell_rub = 78.82 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:41:01.442022
+✅ Данные успешно обновлены: 2026-03-13 18:41:01
+   USD: buy = 82.83 ₽, sell = 78.83 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.83 ₽, sell_rub = 78.83 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:42:01.568733
+✅ Данные успешно обновлены: 2026-03-13 18:42:01
+   USD: buy = 82.82 ₽, sell = 78.82 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.82 ₽, sell_rub = 78.82 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:43:01.542799
+✅ Данные успешно обновлены: 2026-03-13 18:43:01
+   USD: buy = 82.83 ₽, sell = 78.83 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.83 ₽, sell_rub = 78.83 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:44:01.625657
+✅ Данные успешно обновлены: 2026-03-13 18:44:01
+   USD: buy = 82.82 ₽, sell = 78.82 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.82 ₽, sell_rub = 78.82 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:45:01.604188
+✅ Данные успешно обновлены: 2026-03-13 18:45:01
+   USD: buy = 82.83 ₽, sell = 78.83 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.83 ₽, sell_rub = 78.83 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:46:01.592483
+✅ Данные успешно обновлены: 2026-03-13 18:46:01
+   USD: buy = 82.83 ₽, sell = 78.83 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.83 ₽, sell_rub = 78.83 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:47:01.664004
+✅ Данные успешно обновлены: 2026-03-13 18:47:02
+   USD: buy = 82.82 ₽, sell = 78.82 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.82 ₽, sell_rub = 78.82 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:48:00.863654
+✅ Данные успешно обновлены: 2026-03-13 18:48:01
+   USD: buy = 82.5 ₽, sell = 78.5 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.5 ₽, sell_rub = 78.5 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:49:00.888433
+✅ Данные успешно обновлены: 2026-03-13 18:49:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:50:00.869708
+✅ Данные успешно обновлены: 2026-03-13 18:50:01
+   USD: buy = 82.68 ₽, sell = 78.68 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.68 ₽, sell_rub = 78.68 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:51:00.897265
+✅ Данные успешно обновлены: 2026-03-13 18:51:01
+   USD: buy = 82.77 ₽, sell = 78.77 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.77 ₽, sell_rub = 78.77 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:52:01.075922
+✅ Данные успешно обновлены: 2026-03-13 18:52:01
+   USD: buy = 82.62 ₽, sell = 78.62 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.62 ₽, sell_rub = 78.62 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:53:01.006168
+✅ Данные успешно обновлены: 2026-03-13 18:53:01
+   USD: buy = 82.79 ₽, sell = 78.79 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.79 ₽, sell_rub = 78.79 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:54:01.131123
+✅ Данные успешно обновлены: 2026-03-13 18:54:01
+   USD: buy = 82.82 ₽, sell = 78.82 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.82 ₽, sell_rub = 78.82 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:55:01.305936
+✅ Данные успешно обновлены: 2026-03-13 18:55:01
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:56:01.204535
+✅ Данные успешно обновлены: 2026-03-13 18:56:01
+   USD: buy = 82.78 ₽, sell = 78.78 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.78 ₽, sell_rub = 78.78 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:57:01.383299
+✅ Данные успешно обновлены: 2026-03-13 18:57:01
+   USD: buy = 82.78 ₽, sell = 78.78 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.78 ₽, sell_rub = 78.78 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:58:01.435572
+✅ Данные успешно обновлены: 2026-03-13 18:58:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 18:59:01.613319
+✅ Данные успешно обновлены: 2026-03-13 18:59:01
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:00:01.882908
+✅ Данные успешно обновлены: 2026-03-13 19:00:02
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:01:01.058815
+✅ Данные успешно обновлены: 2026-03-13 19:01:01
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:02:01.172057
+✅ Данные успешно обновлены: 2026-03-13 19:02:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:03:01.095061
+✅ Данные успешно обновлены: 2026-03-13 19:03:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:04:01.288329
+✅ Данные успешно обновлены: 2026-03-13 19:04:01
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:05:01.327512
+✅ Данные успешно обновлены: 2026-03-13 19:05:01
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:06:01.404933
+✅ Данные успешно обновлены: 2026-03-13 19:06:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:07:01.591129
+✅ Данные успешно обновлены: 2026-03-13 19:07:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:08:01.620342
+✅ Данные успешно обновлены: 2026-03-13 19:08:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:09:01.815620
+✅ Данные успешно обновлены: 2026-03-13 19:09:02
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:10:00.847394
+✅ Данные успешно обновлены: 2026-03-13 19:10:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:11:00.722873
+✅ Данные успешно обновлены: 2026-03-13 19:11:00
+   USD: buy = 82.81 ₽, sell = 78.81 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.81 ₽, sell_rub = 78.81 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:12:01.724049
+✅ Данные успешно обновлены: 2026-03-13 19:12:01
+   USD: buy = 82.8 ₽, sell = 78.8 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.8 ₽, sell_rub = 78.8 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:13:00.893119
+✅ Данные успешно обновлены: 2026-03-13 19:13:01
+   USD: buy = 82.79 ₽, sell = 78.79 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.79 ₽, sell_rub = 78.79 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:14:01.210901
+✅ Данные успешно обновлены: 2026-03-13 19:14:01
+   USD: buy = 82.79 ₽, sell = 78.79 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.79 ₽, sell_rub = 78.79 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:15:01.367279
+✅ Данные успешно обновлены: 2026-03-13 19:15:01
+   USD: buy = 82.78 ₽, sell = 78.78 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.78 ₽, sell_rub = 78.78 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:16:01.449467
+✅ Данные успешно обновлены: 2026-03-13 19:16:01
+   USD: buy = 82.78 ₽, sell = 78.78 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.78 ₽, sell_rub = 78.78 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:17:01.596396
+✅ Данные успешно обновлены: 2026-03-13 19:17:01
+   USD: buy = 82.77 ₽, sell = 78.77 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.77 ₽, sell_rub = 78.77 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:18:01.687719
+✅ Данные успешно обновлены: 2026-03-13 19:18:02
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:19:00.838500
+✅ Данные успешно обновлены: 2026-03-13 19:19:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:20:00.853934
+✅ Данные успешно обновлены: 2026-03-13 19:20:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:21:00.882362
+✅ Данные успешно обновлены: 2026-03-13 19:21:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:22:00.964095
+✅ Данные успешно обновлены: 2026-03-13 19:22:01
+   USD: buy = 82.76 ₽, sell = 78.76 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.76 ₽, sell_rub = 78.76 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:23:01.025770
+✅ Данные успешно обновлены: 2026-03-13 19:23:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:24:01.241711
+✅ Данные успешно обновлены: 2026-03-13 19:24:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:25:01.376729
+✅ Данные успешно обновлены: 2026-03-13 19:25:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:26:01.548520
+✅ Данные успешно обновлены: 2026-03-13 19:26:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:27:01.715199
+✅ Данные успешно обновлены: 2026-03-13 19:27:02
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:28:00.802899
+✅ Данные успешно обновлены: 2026-03-13 19:28:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:29:01.026124
+✅ Данные успешно обновлены: 2026-03-13 19:29:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:30:01.147360
+✅ Данные успешно обновлены: 2026-03-13 19:30:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:31:01.265425
+✅ Данные успешно обновлены: 2026-03-13 19:31:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:32:01.449758
+✅ Данные успешно обновлены: 2026-03-13 19:32:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:33:01.487108
+✅ Данные успешно обновлены: 2026-03-13 19:33:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:34:01.628681
+✅ Данные успешно обновлены: 2026-03-13 19:34:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:35:01.695267
+✅ Данные успешно обновлены: 2026-03-13 19:35:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:36:00.779309
+✅ Данные успешно обновлены: 2026-03-13 19:36:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:37:00.820747
+✅ Данные успешно обновлены: 2026-03-13 19:37:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:38:00.810524
+✅ Данные успешно обновлены: 2026-03-13 19:38:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:39:00.904267
+✅ Данные успешно обновлены: 2026-03-13 19:39:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:40:00.992301
+✅ Данные успешно обновлены: 2026-03-13 19:40:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:41:01.162479
+✅ Данные успешно обновлены: 2026-03-13 19:41:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:42:01.546175
+✅ Данные успешно обновлены: 2026-03-13 19:42:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:43:01.556582
+✅ Данные успешно обновлены: 2026-03-13 19:43:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:44:01.777441
+✅ Данные успешно обновлены: 2026-03-13 19:44:02
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:45:00.945668
+✅ Данные успешно обновлены: 2026-03-13 19:45:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:46:01.188253
+✅ Данные успешно обновлены: 2026-03-13 19:46:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:47:01.264601
+✅ Данные успешно обновлены: 2026-03-13 19:47:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:48:01.401960
+✅ Данные успешно обновлены: 2026-03-13 19:48:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:49:01.514344
+✅ Данные успешно обновлены: 2026-03-13 19:49:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:50:01.674454
+✅ Данные успешно обновлены: 2026-03-13 19:50:02
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:51:00.807050
+✅ Данные успешно обновлены: 2026-03-13 19:51:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:52:01.045804
+✅ Данные успешно обновлены: 2026-03-13 19:52:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:53:00.942383
+✅ Данные успешно обновлены: 2026-03-13 19:53:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:54:00.895475
+✅ Данные успешно обновлены: 2026-03-13 19:54:02
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:55:01.198863
+✅ Данные успешно обновлены: 2026-03-13 19:55:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:56:01.343215
+✅ Данные успешно обновлены: 2026-03-13 19:56:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:57:01.358363
+✅ Данные успешно обновлены: 2026-03-13 19:57:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:58:01.359238
+✅ Данные успешно обновлены: 2026-03-13 19:58:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 19:59:01.222309
+✅ Данные успешно обновлены: 2026-03-13 19:59:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:00:01.357593
+✅ Данные успешно обновлены: 2026-03-13 20:00:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:01:01.472333
+✅ Данные успешно обновлены: 2026-03-13 20:01:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:02:01.711336
+✅ Данные успешно обновлены: 2026-03-13 20:02:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:03:00.771685
+✅ Данные успешно обновлены: 2026-03-13 20:03:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:04:00.965034
+✅ Данные успешно обновлены: 2026-03-13 20:04:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:05:00.953954
+✅ Данные успешно обновлены: 2026-03-13 20:05:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:06:00.780973
+✅ Данные успешно обновлены: 2026-03-13 20:06:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:07:00.753819
+✅ Данные успешно обновлены: 2026-03-13 20:07:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:08:00.795435
+✅ Данные успешно обновлены: 2026-03-13 20:08:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:09:01.003901
+✅ Данные успешно обновлены: 2026-03-13 20:09:01
+   USD: buy = 82.74 ₽, sell = 78.74 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.74 ₽, sell_rub = 78.74 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:10:01.103046
+✅ Данные успешно обновлены: 2026-03-13 20:10:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:11:01.201409
+✅ Данные успешно обновлены: 2026-03-13 20:11:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:12:01.313911
+✅ Данные успешно обновлены: 2026-03-13 20:12:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:13:01.285820
+✅ Данные успешно обновлены: 2026-03-13 20:13:01
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 20:29:45.729144
+✅ Данные успешно обновлены: 2026-03-13 20:29:46
+   USD: buy = 82.75 ₽, sell = 78.75 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.75 ₽, sell_rub = 78.75 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:16:01.736097
+✅ Данные успешно обновлены: 2026-03-13 23:16:02
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:17:00.937240
+✅ Данные успешно обновлены: 2026-03-13 23:17:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:18:00.859761
+✅ Данные успешно обновлены: 2026-03-13 23:18:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:19:00.774037
+✅ Данные успешно обновлены: 2026-03-13 23:19:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:20:00.618903
+✅ Данные успешно обновлены: 2026-03-13 23:20:00
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:21:01.589856
+✅ Данные успешно обновлены: 2026-03-13 23:21:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:22:01.524908
+✅ Данные успешно обновлены: 2026-03-13 23:22:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:23:01.579202
+✅ Данные успешно обновлены: 2026-03-13 23:23:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:24:01.592258
+✅ Данные успешно обновлены: 2026-03-13 23:24:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:25:01.657092
+✅ Данные успешно обновлены: 2026-03-13 23:25:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:26:01.611183
+✅ Данные успешно обновлены: 2026-03-13 23:26:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:27:01.467906
+✅ Данные успешно обновлены: 2026-03-13 23:27:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:28:01.444183
+✅ Данные успешно обновлены: 2026-03-13 23:28:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:29:01.608625
+✅ Данные успешно обновлены: 2026-03-13 23:29:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:30:01.708756
+✅ Данные успешно обновлены: 2026-03-13 23:30:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:31:00.712076
+✅ Данные успешно обновлены: 2026-03-13 23:31:00
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:32:01.726800
+✅ Данные успешно обновлены: 2026-03-13 23:32:02
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:33:00.680811
+✅ Данные успешно обновлены: 2026-03-13 23:33:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:34:00.544575
+✅ Данные успешно обновлены: 2026-03-13 23:34:00
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:35:01.356957
+✅ Данные успешно обновлены: 2026-03-13 23:35:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:36:01.441207
+✅ Данные успешно обновлены: 2026-03-13 23:36:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:37:01.540284
+✅ Данные успешно обновлены: 2026-03-13 23:37:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:38:01.618394
+✅ Данные успешно обновлены: 2026-03-13 23:38:02
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:39:00.926845
+✅ Данные успешно обновлены: 2026-03-13 23:39:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:40:01.020158
+✅ Данные успешно обновлены: 2026-03-13 23:40:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:41:01.151943
+✅ Данные успешно обновлены: 2026-03-13 23:41:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:42:01.173997
+✅ Данные успешно обновлены: 2026-03-13 23:42:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:43:01.054164
+✅ Данные успешно обновлены: 2026-03-13 23:43:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:44:01.126160
+✅ Данные успешно обновлены: 2026-03-13 23:44:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:45:01.423103
+✅ Данные успешно обновлены: 2026-03-13 23:45:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:46:01.442185
+✅ Данные успешно обновлены: 2026-03-13 23:46:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:47:01.487129
+✅ Данные успешно обновлены: 2026-03-13 23:47:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:48:01.507009
+✅ Данные успешно обновлены: 2026-03-13 23:48:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:49:01.541693
+✅ Данные успешно обновлены: 2026-03-13 23:49:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:50:01.588990
+✅ Данные успешно обновлены: 2026-03-13 23:50:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:51:01.454997
+✅ Данные успешно обновлены: 2026-03-13 23:51:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:52:01.584440
+✅ Данные успешно обновлены: 2026-03-13 23:52:02
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:53:01.195516
+✅ Данные успешно обновлены: 2026-03-13 23:53:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:54:01.359286
+✅ Данные успешно обновлены: 2026-03-13 23:54:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:55:01.471631
+✅ Данные успешно обновлены: 2026-03-13 23:55:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:56:01.572332
+✅ Данные успешно обновлены: 2026-03-13 23:56:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:57:01.760218
+✅ Данные успешно обновлены: 2026-03-13 23:57:02
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:58:00.905971
+✅ Данные успешно обновлены: 2026-03-13 23:58:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-13 23:59:01.038443
+✅ Данные успешно обновлены: 2026-03-13 23:59:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:00:01.583207
+✅ Данные успешно обновлены: 2026-03-14 00:00:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:01:01.109038
+✅ Данные успешно обновлены: 2026-03-14 00:01:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:02:01.477845
+✅ Данные успешно обновлены: 2026-03-14 00:02:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:03:01.643275
+✅ Данные успешно обновлены: 2026-03-14 00:03:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:04:02.147786
+✅ Данные успешно обновлены: 2026-03-14 00:04:02
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:05:01.390611
+✅ Данные успешно обновлены: 2026-03-14 00:05:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:06:01.684395
+✅ Данные успешно обновлены: 2026-03-14 00:06:02
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:07:00.895235
+✅ Данные успешно обновлены: 2026-03-14 00:07:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:08:00.861501
+✅ Данные успешно обновлены: 2026-03-14 00:08:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:09:00.981320
+✅ Данные успешно обновлены: 2026-03-14 00:09:01
+   USD: buy = 82.98 ₽, sell = 78.98 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.98 ₽, sell_rub = 78.98 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:10:01.104422
+✅ Данные успешно обновлены: 2026-03-14 00:10:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:11:01.092728
+✅ Данные успешно обновлены: 2026-03-14 00:11:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:12:01.246477
+✅ Данные успешно обновлены: 2026-03-14 00:12:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:13:01.353527
+✅ Данные успешно обновлены: 2026-03-14 00:13:01
+   USD: buy = 82.97 ₽, sell = 78.97 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.97 ₽, sell_rub = 78.97 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:14:01.611731
+✅ Данные успешно обновлены: 2026-03-14 00:14:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:15:01.153912
+✅ Данные успешно обновлены: 2026-03-14 00:15:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:16:01.261323
+✅ Данные успешно обновлены: 2026-03-14 00:16:01
+   USD: buy = 82.94 ₽, sell = 78.94 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.94 ₽, sell_rub = 78.94 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:17:01.418665
+✅ Данные успешно обновлены: 2026-03-14 00:17:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽
+🔄 Запрос к Rapira: 2026-03-14 00:18:01.524429
+✅ Данные успешно обновлены: 2026-03-14 00:18:01
+   USD: buy = 82.95 ₽, sell = 78.95 ₽
+   USDT: buy_usd = 1.0, sell_usd = 1.0
+   USDT: buy_rub = 82.95 ₽, sell_rub = 78.95 ₽

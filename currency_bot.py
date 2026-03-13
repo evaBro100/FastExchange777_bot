@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import asyncio
 import json
 import logging
@@ -5,7 +7,10 @@ from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8693832078:AAF4yo-bl9GubeR4ydiSIi1Y8C3HcRbQFPU"
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
+if not TOKEN:
+    raise ValueError("Токен не найден! Проверьте файл .env")
 
 # --- Клавиатура с одной кнопкой ---
 reply_keyboard = [["Курсы обмена"]]
@@ -24,7 +29,7 @@ def load_crypto_rates():
 # --- Формирование сообщения с курсами из Rapira ---
 def get_exchange_message():
     data = load_crypto_rates()
-    last_update = data['last_update']
+    # last_update = data['last_update']
     rates = data.get('rates', {})
 
     usd = rates.get('USD', {})
@@ -43,8 +48,7 @@ def get_exchange_message():
         return f"{val:.2f}"
 
     message = (
-        f"📊 **Курсы покупки/продажи** (обновлено: {last_update})\n"
-        f"🌐 Сеть: TRC20\n\n"
+        f"📊 **Курсы покупки/продажи**\n"
         "**Вы хотите купить:**\n"
         f"USD = {fmt(usd_buy)} руб.\n"
         f"USDT = {fmt(usdt_buy_usd)} USD\n"
@@ -52,14 +56,15 @@ def get_exchange_message():
         "**Вы хотите продать:**\n"
         f"USD = {fmt(usd_sell)} руб.\n"
         f"USDT = {fmt(usdt_sell_usd)} USD\n"
-        f"USDT = {fmt(usdt_sell_rub)} руб."
+        f"USDT = {fmt(usdt_sell_rub)} руб.\n\n"
+        "[💸 Заказать валюту](https://t.me/+09qGbu-xqb1jMzBi) | [📞Для связи](https://t.me/hhgvy7667)"
     )
     return message
 
 # --- Обработчики команд и сообщений ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Привет! Я бот курсов обменника.\n"
+        "Привет! Я бот курса обменника.\n"
         "Нажмите кнопку ниже, чтобы получить актуальные курсы.",
         reply_markup=markup
     )
