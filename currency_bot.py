@@ -6,6 +6,7 @@ import logging
 from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+from telegram.request import HTTPXRequest
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
@@ -84,7 +85,8 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # --- Главная функция ---
 async def main():
-    application = Application.builder().token(TOKEN).build()
+    request = HTTPXRequest(connect_timeout=30, read_timeout=30, write_timeout=30)
+    application = Application.builder().token(TOKEN).request(request).build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("exchange", exchange))  # оставим для совместимости
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_buttons))
