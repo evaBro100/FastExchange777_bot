@@ -52,11 +52,9 @@ def get_exchange_message():
         f"📊 **Курсы покупки/продажи**\n"
         "**Вы хотите купить:**\n"
         f"USD = {fmt(usd_buy)} руб.\n"
-        f"USDT = {fmt(usdt_buy_usd)} USD\n"
         f"USDT = {fmt(usdt_buy_rub)} руб.\n\n"
         "**Вы хотите продать:**\n"
         f"USD = {fmt(usd_sell)} руб.\n"
-        f"USDT = {fmt(usdt_sell_usd)} USD\n"
         f"USDT = {fmt(usdt_sell_rub)} руб.\n\n"
         "[💸 Заказать валюту](https://t.me/+09qGbu-xqb1jMzBi) | [📞Для связи](https://t.me/hhgvy7667)"
     )
